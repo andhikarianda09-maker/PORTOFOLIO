@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andhika, Ilmu Komputer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#272a48] font-sans text-slate-300 antialiased">
+
+  <!-- 1. NAVIGASI -->
+  <header class="absolute inset-x-0 top-0 z-20">
+    <div class="mx-auto flex h-20 max-w-5xl items-center justify-between px-6">
+      <a href="#beranda" class="text-2xl font-extrabold text-[#f2655a]">Dikuyy.</a>
+      <nav class="flex items-center gap-7 text-sm font-semibold text-white">
+        <a href="#beranda" class="hidden text-[#f2655a] md:block">Beranda</a>
+        <a href="#tentang" class="hidden hover:text-[#f2655a] md:block">Tentang Saya</a>
+        <a href="#kemampuan" class="hidden hover:text-[#f2655a] md:block">Kemampuan</a>
+        <a href="#proyek" class="hidden hover:text-[#f2655a] md:block">Proyek</a>
+        <a href="#kontak" class="border border-[#f2655a] px-5 py-2 text-[#f2655a] hover:bg-[#f2655a] hover:text-white">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="beranda" class="relative flex min-h-[520px] items-center justify-center overflow-hidden bg-[#232326] px-6 pb-20 pt-24 text-center">
+      <svg class="absolute inset-0 h-full w-full" viewBox="0 0 1200 520" preserveAspectRatio="none" aria-hidden="true">
+        <polygon points="0,520 0,300 180,190 300,260 470,120 640,300 780,230 960,80 1200,240 1200,520" fill="#2a2a2f"/>
+        <polygon points="0,520 0,400 220,300 400,380 620,270 860,380 1040,250 1200,330 1200,520" fill="#1d1d21"/>
+      </svg>
+      <div class="absolute inset-0 bg-gradient-to-b from-black/30 to-[#232326]/60"></div>
+
+      <div class="relative">
+        <img alt="pasf" class="mx-auto h-36 w-36 rounded-full bg-slate-700 object-cover ring-4 ring-slate-600/60"
+          src="pasfoto putih.jpeg">
+        <h1 class="mt-6 text-5xl font-extrabold text-[#f2655a] sm:text-6xl">ANDHIKA RIANDA HARAHAP</h1>
+        <p class="mt-3 text-sm font-semibold text-white">Mahasiswa Ilmu Komputer </p>
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <a href="#proyek" class="inline-block bg-[#f2655a] px-6 py-3 text-sm font-semibold text-white hover:bg-[#dc4e43]">Lihat Proyek</a>
+          <a href="#kontak" class="inline-block border border-[#f2655a] px-6 py-3 text-sm font-semibold text-[#f2655a] hover:bg-[#f2655a] hover:text-white">Hubungi Saya</a>
+        </div>
+      </div>
+      <a href="#tentang" class="absolute bottom-6 left-6 flex items-center gap-2 text-xs font-semibold text-white">
+        <span class="h-px w-8 bg-[#f2655a]"></span>Gulir ke bawah
+      </a>
+    </section>
+
+    <!-- 2. TENTANG SAYA -->
+    <section id="tentang" class="scroll-mt-4 bg-[#272a48]">
+      <div class="relative mx-auto max-w-5xl px-6 py-24">
+        <span class="absolute right-6 top-24 hidden items-center gap-2 text-5xl font-light text-white/10 md:flex">01<span class="h-px w-10 bg-[#f2655a]"></span></span>
+        <div class="grid items-start gap-12 md:grid-cols-[300px_1fr]">
+          <img alt="Foto Andhika Rianda Harahap" class="aspect-[4/5] w-full bg-[#1d1f38] object-cover"
+            src="pasfoto putih.jpeg">
+          <div>
+            <p class="text-sm font-semibold text-[#f2655a]">Kenali saya</p>
+            <h2 class="relative mt-1 pb-4 text-3xl font-bold text-white sm:text-4xl">Tentang Saya<span class="absolute bottom-0 left-0 h-0.5 w-10 bg-[#f2655a]"></span></h2>
+            <p class="mt-6 leading-relaxed">
+              Saya mahasiswa Ilmu Komputer di Universitas Sumatera Utara.
+               Saya tertarik pada dunia teknologi, terutama pada pengembangan game, pemograman, dan pengembangan web.
+                Saya belajar melalui tugas kuliah, proyek kelompok, serta mencoba berbagai hal baru secara mandiri.
+            </p>
+            <dl class="mt-7 grid gap-x-8 gap-y-3 border border-[#f2655a]/40 p-6 text-sm sm:grid-cols-2">
+              <div><dt class="inline font-bold text-white">Nama: </dt><dd class="inline">Andhika Rianda Harahap</dd></div>
+              <div><dt class="inline font-bold text-white">Jurusan: </dt><dd class="inline">Ilmu Komputer</dd></div>
+              <div><dt class="inline font-bold text-white">Negara: </dt><dd class="inline">Indonesia</dd></div>
+              <div><dt class="inline font-bold text-white">Minat: </dt><dd class="inline">Gamedev &amp; Web</dd></div>
+              <div><dt class="inline font-bold text-white">Email: </dt><dd class="inline">andhikarianda@students.usu.ac.id</dd></div>
+              <div><dt class="inline font-bold text-white">Status: </dt><dd class="inline">Mahasiswa</dd></div>
+            </dl>
+            <a href="PORTOFOLIO.pdf" class="mt-7 inline-block bg-[#f2655a] px-6 py-3 text-sm font-semibold text-white hover:bg-[#dc4e43]">Unduh Portofolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. KEMAMPUAN -->
+    <section id="kemampuan" class="scroll-mt-4 bg-[#21233d]">
+      <div class="relative mx-auto max-w-5xl px-6 py-24">
+        <span class="absolute right-6 top-24 hidden items-center gap-2 text-5xl font-light text-white/10 md:flex">02<span class="h-px w-10 bg-[#f2655a]"></span></span>
+        <p class="text-sm font-semibold text-[#f2655a]">Yang saya kuasai</p>
+        <h2 class="relative mt-1 pb-4 text-3xl font-bold text-white sm:text-4xl">Kemampuan<span class="absolute bottom-0 left-0 h-0.5 w-10 bg-[#f2655a]"></span></h2>
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+          <div class="border border-[#f2655a]/40 p-7 transition hover:border-[#f2655a]">
+            <svg class="h-9 w-9 text-[#f2655a]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 8l-5 4 5 4M16 8l5 4-5 4M14 5l-4 14"/></svg>
+            <h3 class="mb-2 mt-4 font-bold text-white">Pengembangan Web</h3>
+            <p class="text-sm leading-relaxed text-slate-400">HTML, CSS, dan untuk membuat halaman yang rapi dan responsif.</p>
+          </div>
+          <div class="border border-[#f2655a]/40 p-7 transition hover:border-[#f2655a]">
+            <svg class="h-9 w-9 text-[#f2655a]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3zM12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg>
+            <h3 class="mb-2 mt-4 font-bold text-white">Pengembangan Game</h3>
+            <p class="text-sm leading-relaxed text-slate-400">Membuat game 3D di Roblox Studio dengan bahasa pemrograman Lua.</p>
+          </div>
+          <div class="border border-[#f2655a]/40 p-7 transition hover:border-[#f2655a]">
+            <svg class="h-9 w-9 text-[#f2655a]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6V3zM14 3v5h5M9 13h7M9 17h7"/></svg>
+            <h3 class="mb-2 mt-4 font-bold text-white">C++</h3>
+            <p class="text-sm leading-relaxed text-slate-400">Mempelajari dan menggunakan C++ untuk membuat berbagai program serta menyelesaikan tugas pemrograman selama perkuliahan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROYEK -->
+    <section id="proyek" class="scroll-mt-4 bg-[#272a48]">
+      <div class="relative mx-auto max-w-5xl px-6 py-24">
+        <span class="absolute right-6 top-24 hidden items-center gap-2 text-5xl font-light text-white/10 md:flex">03<span class="h-px w-10 bg-[#f2655a]"></span></span>
+        <p class="text-sm font-semibold text-[#f2655a]">Karya saya</p>
+        <h2 class="relative mt-1 pb-4 text-3xl font-bold text-white sm:text-4xl">Proyek<span class="absolute bottom-0 left-0 h-0.5 w-10 bg-[#f2655a]"></span></h2>
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+          <article class="flex flex-col border border-[#f2655a]/40 p-7 transition hover:border-[#f2655a]">
+            <p class="text-xs font-semibold text-[#f2655a]">Roblox &middot; Lua</p>
+            <h3 class="mb-2 mt-2 font-bold text-white">Facilkom [ALPHA]</h3>
+            <p class="flex-1 text-sm leading-relaxed text-slate-400">Game Roblox yang menghadirkan replika lingkungan Fasilkom-TI USU, mulai dari gedung, ruangan, hingga area di sekitar fakultas. Proyek ini berfokus pada pembuatan map dan desain lingkungan yang menyerupai kondisi aslinya.</p>
+            <div><a href="https://www.roblox.com/id/games/139934918652239/Facilkom" class="mt-6 inline-block border border-[#f2655a] px-6 py-2 text-sm font-semibold text-[#f2655a] hover:bg-[#f2655a] hover:text-white">Lihat Proyek</a></div>
+          </article>
+          <article class="flex flex-col border border-[#f2655a]/40 p-7 transition hover:border-[#f2655a]">
+            <p class="text-xs font-semibold text-[#f2655a]">Algoritma & Pemograman</p>
+            <h3 class="mb-2 mt-2 font-bold text-white">Aplikasi Dont Forget</h3>
+            <p class="flex-1 text-sm leading-relaxed text-slate-400">Proyek kelompok berupa pembuatan Aplikasi pengingat yang membantu pengguna membuat alarm untuk berbagai aktivitas dan tugas agar tidak mudah terlupa..</p>
+            <div><a href="https://github.com/Quark-hub/Aplikasi_Dont_Forget" class="mt-6 inline-block border border-[#f2655a] px-6 py-2 text-sm font-semibold text-[#f2655a] hover:bg-[#f2655a] hover:text-white">Lihat Proyek</a></div>
+          </article>
+          <article class="flex flex-col border border-[#f2655a]/40 p-7 transition hover:border-[#f2655a]">
+            <p class="text-xs font-semibold text-[#f2655a]">C++</p>
+            <h3 class="mb-2 mt-2 font-bold text-white">Proyek Lab Algoritma & Pemograman</h3>
+            <p class="flex-1 text-sm leading-relaxed text-slate-400">Kumpulan proyek pemrograman yang saya kerjakan selama perkuliahan, mencakup game, aplikasi, dan sistem manajemen sederhana.</p>
+            <div><a href="https://github.com/andhikarianda09-maker/UAS_AP_TERSERAH-KATA-AJI" class="mt-6 inline-block border border-[#f2655a] px-6 py-2 text-sm font-semibold text-[#f2655a] hover:bg-[#f2655a] hover:text-white">Lihat Proyek</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. KONTAK -->
+    <section id="kontak" class="scroll-mt-4 bg-[#21233d]">
+      <div class="relative mx-auto max-w-5xl px-6 py-24 text-center">
+        <span class="absolute right-6 top-24 hidden items-center gap-2 text-5xl font-light text-white/10 md:flex">04<span class="h-px w-10 bg-[#f2655a]"></span></span>
+        <p class="text-sm font-semibold text-[#f2655a]">Ayo terhubung</p>
+        <h2 class="relative mt-1 inline-block pb-4 text-3xl font-bold text-white sm:text-4xl">Kontak<span class="absolute bottom-0 left-1/2 h-0.5 w-10 -translate-x-1/2 bg-[#f2655a]"></span></h2>
+        <p class="mx-auto mt-8 max-w-md">Silakan hubungi saya atau mutual melalui kontak yang tersedia di bawah ini..</p>
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <a href="https://mail.google.com/mail/?view=cm&to=andhikarianda@students.usu.ac.id" class="inline-block bg-[#f2655a] px-6 py-3 text-sm font-semibold text-white hover:bg-[#dc4e43]">Kirim Email</a>
+          <a href="https://github.com/andhikarianda09-maker" class="inline-block border border-[#f2655a] px-6 py-3 text-sm font-semibold text-[#f2655a] hover:bg-[#f2655a] hover:text-white">GitHub</a>
+          <a href="https://www.instagram.com/dhikaahrp_?stkn=MTY0aWlkM3pvZmNk" class="inline-block border border-[#f2655a] px-6 py-3 text-sm font-semibold text-[#f2655a] hover:bg-[#f2655a] hover:text-white">Instagram</a>
+          <a href="https://www.linkedin.com/in/andhika-rianda-harahap-a1ba06407?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="inline-block border border-[#f2655a] px-6 py-3 text-sm font-semibold text-[#f2655a] hover:bg-[#f2655a] hover:text-white">Linkedln</a>
+          <a href="https://boxd.it/i25fH" class="inline-block border border-[#f2655a] px-6 py-3 text-sm font-semibold text-[#f2655a] hover:bg-[#f2655a] hover:text-white">Letterboxd</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. FOOTER -->
+  <footer class="bg-[#191a2e] text-sm text-slate-400">
+    <div class="mx-auto flex max-w-5xl flex-wrap justify-between gap-2 px-6 py-6">
+      <p>&copy; 2026 Andhika Rianda Harahap</p>
+      
+    </div>
+  </footer>
+
+</body>
+</html>
